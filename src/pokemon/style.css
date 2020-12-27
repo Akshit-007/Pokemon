@@ -34,6 +34,7 @@ body{
     border-radius: 10px;
     font-size: 20px;
     border:2px solid greenyellow;
+   
 }
 input:focus{
     outline: none;
@@ -129,7 +130,7 @@ input:focus{
        position: relative;
    }
    .searchbox{
-    width:70%;
+    width:90%;
     margin-left: 20px;
     height:150px;
 
