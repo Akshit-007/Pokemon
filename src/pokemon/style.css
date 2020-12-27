@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(255, 109, 109);
+}
+.head{
+    font-size: 60px;
+    margin: 10px auto;
+    background-color: white;
+    width:250px;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+.image
+{
+    position: absolute;
+    background-image: url("pokemon.png");
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    margin-left:34%;
+    border-radius: 20px;
+}
+.searchbox{
+    margin: 50px auto;
+    background-color: rgb(137, 235, 241);
+    width:30%;
+    height:70px;
+    text-align: center;
+    border-radius: 10px;
+}
+.searchbox input{
+   margin-top: 20px;
+    height:30px;
+    border-radius: 10px;
+    font-size: 20px;
+    border:2px solid greenyellow;
+}
+input:focus{
+    outline: none;
+}
+.searchbox button{
+    background-color: white;
+    border:none;
+    margin-left: 5px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.searchbox button:hover{
+    background-color: greenyellow;
+    color:white;
+}
+.searchbox button:focus{
+    outline: none;
+}
+.card{
+    border:2px solid #00ff75;
+    border-radius: 20px;
+    height:40%;
+    width:30%;
+    background-color: rgb(128, 128, 128,0.5);
+    margin: 10px auto;
+    text-align:center ;
+}
+.card img{
+    margin: 140px;
+    margin-top: 10px;
+}
+.name{
+ background-color: white;
+ text-transform: capitalize;
+ font-size: 40px;
+ border-bottom: 1px solid black;
+}
+.title
+{
+    height:40px;
+    width:30%;
+    background-color: white;
+    margin: 10px auto;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.infobox{
+    width:90%;
+    min-height:200px;
+    margin: 30px auto;
+    background-color:rgb(224, 224, 224);
+    text-align: left; 
+    border:2px solid black;
+    border-radius: 10px;
+}
+.height{
+    padding:10px;
+    font-size: 20px;
+}
+.weight{
+    padding:10px;
+    font-size: 20px;
+}
+.type{
+    padding:10px;
+    font-size: 20px;
+}
+.ability{
+    padding:10px;
+    font-size: 20px;
+}
+.error{
+    height:50px;
+    width:30%;
+    background-color: cadetblue;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    color: red;
+    font-weight: 800;
+}
+@media only screen and (max-width:800px)
+{
+   .head{
+       margin-top: 50px;
+        width:220px;
+        margin-left: 40px;
+
+   }
+   .image{
+       position: relative;
+   }
+   .searchbox{
+    width:70%;
+    margin-left: 20px;
+    height:150px;
+
+   }
+   .searchbox button{
+       margin-top: 30px;
+   }
+
+   .card{
+       width:80vw;
+       margin-left: 30px ;
+   }
+   .card img{
+       margin-left: 50px;
+   }
+   .searchbox input{
+       width:80%;
+   }
+   .error{
+       width:80%;
+       min-height: 70px;
+   }
+}
